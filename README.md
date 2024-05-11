@@ -82,3 +82,33 @@ The discriminator network consists of a series of convolutional blocks followed 
 
 The SRGAN model achieves significant improvement in the resolution and clarity of gravitational lens images. The generated high-resolution images exhibit enhanced details and structures compared to the original low-resolution images.
 
+### Simulated Data
+
+Here are some example results of the SRGAN model on simulated gravitational lens images:
+
+| ![Simulated Image 1](images/img1_sim.png) |
+| ![simulated Image 2](images/img2_sim.png) |
+
+### Real Data
+
+Here are some example results of the SRGAN model with transfer learning on real gravitational lens images:
+
+| ![Real Image 1](images/img1_real.png) | 
+| ![Real Image 2 ](images/img2_real.png) |
+
+The SRGAN model achieves significant improvement in the resolution and clarity of gravitational lens images. The generated high-resolution images exhibit enhanced details and structures compared to the original low-resolution images.
+
+
+## Citation
+
+If you use this code or find it helpful for your research, please cite the original SRGAN paper:
+
+```bibtex
+@inproceedings{ledig2017photo,
+  title={Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network},
+  author={Ledig, Christian and Theis, Lucas and Huszar, Ferenc and Caballero, Jose and Cunningham, Andrew and Acosta, Alejandro and Aitken, Andrew and Tejani, Alykhan and Totz, Johannes and Wang, Zehan and others},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4681--4690},
+  year={2017}
+}
+```
