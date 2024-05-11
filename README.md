@@ -58,25 +58,6 @@ The discriminator network consists of a series of convolutional blocks followed 
 
 ## Usage
 
-1. Prepare a dataset of low-resolution and high-resolution gravitational lens images.
-
-2. Train the SRGAN model on the simulated gravitational lens images:
-
-   ```shell
-   python train.py --data_dir path/to/simulated/data --output_dir path/to/output
-   ```
-
-3. Fine-tune the model on real gravitational lens images using transfer learning:
-
-   ```shell
-   python finetune.py --data_dir path/to/real/data --pretrained_model path/to/pretrained/model --output_dir path/to/output
-   ```
-
-4. Use the trained model to super-resolve new gravitational lens images:
-
-   ```shell
-   python super_resolve.py --input_image path/to/input/image --output_image path/to/output/image --model_path path/to/trained/model
-   ```
 
 ## Results
 
