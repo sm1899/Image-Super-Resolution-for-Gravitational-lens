@@ -94,7 +94,7 @@ Here are some example results of the SRGAN model on simulated gravitational lens
 Here are some example results of the SRGAN model with transfer learning on real gravitational lens images:
 
 | ![Real Image 1](images/img1_real.png) | 
-| ![Real Image 2 ](images/img2_real.png) |
+| ![Real Image 2 ](images/img2_real.png)|
 
 The SRGAN model achieves significant improvement in the resolution and clarity of gravitational lens images. The generated high-resolution images exhibit enhanced details and structures compared to the original low-resolution images.
 
